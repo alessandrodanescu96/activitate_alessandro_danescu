@@ -1,0 +1,29 @@
+.myMain {
+   padding: 5px; 
+   background-color: #F7F7F7;
+}
+
+.myTable tr td {
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 1em;
+    margin: 20px;
+    width: 150px;
+}
+
+.myFirst {
+    background-color: #F7D668;
+}
+
+.mySecond {
+    background-color: #28AEA3;
+}
+
+.myThird {
+    background-color: #166298 ;
+}
+
+.myLast {
+    background-color: #f7d668;
+}

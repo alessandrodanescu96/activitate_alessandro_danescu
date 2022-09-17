@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Resident  </title>
+    </head>
+    <body>
+        <div>
+            <h1> Adopt a Raccoon. </h1>
+        </div>
+        <div>
+            <form>
+                <input name="subject" type="hidden" value="Class" />
+                <fieldset><legend></legend>
+                <label for="degree">Why do you want to adopt a raccoon? </label>
+                <select name="degree" id="degree">
+                <option value="BA">Because they are like donuts.</option>
+                <option value="BS">I just love to play with them.</option>
+                <option value="MBA" selected="selected">They are very smart and very lovely. </option>
+                </select>
+                <br />
+                <label for="studentid">Certificate ID</label>
+                <input type="password" name="studentid" />
+                <label for="classes">Domiciliu</label>
+                <select multiple name="classes" id="classes">
+                <option value="1">Curte cu spatiu verde</option>
+                <option value="2">Bloc</option>
+                <option value="3">Casa de papusi</option>
+                </select>
+                </fieldset>
+                <fieldset><legend>Personal Details</legend>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" />
+                <br />
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname" />
+                <br />
+                Gender:
+                <input name="gender" type="radio" id="gm" value="m" />
+                <label for="gm">Male</label>
+                <input name="gender" type="radio" id="gf" value="f" />
+                <label for="gf">Female</label>
+                <br />
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+                </fieldset>
+                <p>
+                <textarea name="terms" cols="30" rows="4"></textarea>
+                </p>
+                <p>
+                <input type="submit" name="submit" value="Send Form" />
+                <input type="reset" value="Clear Form" />
+                </p>
+                </form>
+        </div>
+    </body>
+</html>

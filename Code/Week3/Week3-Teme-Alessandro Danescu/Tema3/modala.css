@@ -1,0 +1,92 @@
+html{
+    background-color:rosybrown;
+}
+
+.picture {
+    display: flex;
+    width: 100px;
+    padding: 100px;
+    left: -100px;
+    top: -100px
+}
+
+img {
+    display: flex;
+    border-radius: 10px;
+}
+
+.container label, input {
+    display: flex;
+
+}
+
+.container {
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+    top: -380px;
+    background-color: white;
+    right: -550px;
+    width: 300px;
+    padding: 10px;
+}
+
+
+.button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button-cls {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name-style {
+    box-sizing: content-box;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+
+}
+
+h3, span {
+    display: inline-block;
+    
+}
+
+span {
+   position: relative;
+   right: -170px;
+}
+
