@@ -1,8 +1,12 @@
       const options = document.querySelectorAll(".options");
       let pScore = 0;
       let cScore = 0;
+
+        var pScoreElement = document.getElementById("p-score");
+        var cScoreElement = document.getElementById("c-score");
+        
   
-      options.forEach((option) => {
+        options.forEach((option) => {
         option.addEventListener("click", function () {
           const pInput = this.value;
   
@@ -64,14 +68,15 @@
       }
   
       function updateScore() {
-        document.getElementById("p-score").textContent = pScore;
-        document.getElementById("c-score").textContent = cScore;
+        pScoreElement.textContent = pScore;
+        cScoreElement.textContent = cScore;
       }
   
       function checkWinner() {
-        if (pScore === 5 || cScore === 5) {
+        var ABC = pScore === 5;
+        if (ABC || cScore === 5) {
           const winner =
-            pScore === 5
+             ABC
               ? "You win the game! Congratulations!"
               : "Computer wins the game! Try again next time!";
           alert(winner);

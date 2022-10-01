@@ -3,11 +3,11 @@ var firstName = document.querySelector("#name1");
 var lastName = document.querySelector("#name2");
 var email = document.querySelector("#email");
 var message = document.querySelector("#message");
-var success = document.querySelector("#success");
+var success = document.querySelector(".success");
 var errorNodes = document.querySelectorAll(".error");
 
 //Validate data
-window.onload = function validateForm() {
+  function validateForm() {
 
     clearMessages();
     var errorFlag = false;
@@ -37,10 +37,8 @@ window.onload = function validateForm() {
      }
 
      if(!errorFlag) {
-        success.innerText = "Success!"
+        success.innerText = "Success!" + firstName.value; 
      }
-
-     validateForm();
 
 }
 
