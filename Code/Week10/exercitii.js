@@ -39,9 +39,9 @@ function Group(...humans) {
 const musician1 = new Musician({
   name: "Alessandro Danescu",
   age: 26,
-  albums: 1,
+  albums: 111111111111111111111111111111111111111,
   domain: "Pop-Rock",
-  trophies: 3,
+  trophies: 333333333333333333333333333333333333333,
 });
 
 const musician2 = new Musician({
@@ -182,3 +182,73 @@ function XBOX(settings) {
   const electronic = new Group(playstation1, playstation2, xbox1, xbox3);
   console.log(electronic);
 }
+
+//Functie care primeste un parametru: integer
+
+function number(num) {
+  return num;
+}
+
+console.log(7);
+
+//Functie care returneaza un parametru: string
+
+function concatenate(name, subject) {
+  var val;
+  val = name + subject;
+  return val;
+}
+
+console.log("This is my name", "Alessandro");
+
+//Functie care returneaza un parametru: array
+
+function makeArray() {
+  var myArray = new Array(4);
+  myArray[0] = "A";
+  myArray[1] = "B";
+  myArray[2] = "C";
+  myArray[3] = "D";
+  return myArray;
+}
+
+//Boolean Promises - Resolve and Reject
+
+let p = new Promise((resolve, reject) => {
+  let x = 10 + 10;
+  if (x === 20) {
+    resolve("este adevarat, regele meu suprem!");
+  } else {
+    reject("mai mergi la scoala!");
+  }
+});
+
+p.then((message) => {
+  console.log("Nu stiu cum sa iti zic dar..." + message);
+}).catch((message) => {
+  console.log("Mai are rost sa zic ceva?" + message);
+});
+
+// O functie care accepta un numar nedefinit de argumente care returneaza suma lor
+
+function addTogether() {
+  let sum = 0;
+
+  for (let i = 0; i < arguments.length; i++) {
+    if (
+      typeof arguments[i] !== "undefined" &&
+      typeof arguments[i] == "number"
+    ) {
+      if (arguments.length < 2) {
+        var sumTwoAnd = addTogether(arguments);
+      }
+      sum += arguments[i];
+    } else {
+      return undefined;
+    }
+  }
+
+  return sum;
+}
+
+addTogether(2, 3);
