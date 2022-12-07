@@ -1,9 +1,3 @@
-function ArticleModalModel() {
-  Model.call(this);
-  this.templateUrl =
-    "./sources/articles/ArticleModal/ArticleModal.template.html";
-
-  return this;
+class ArticleModalModel extends Model {
+  templateUrl = "./sources/articles/ArticleModal/ArticleModal.template.html";
 }
-
-ArticleModalModel.prototype = Object.create(Model.prototype);

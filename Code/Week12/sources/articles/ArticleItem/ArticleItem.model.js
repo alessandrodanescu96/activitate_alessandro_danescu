@@ -1,8 +1,3 @@
-function ArticleItemModel() {
-  Model.call(this);
-  this.templateUrl = "./sources/articles/ArticleItem/ArticleItem.template.html";
-
-  return this;
+class ArticleItemModel extends Model {
+  templateUrl = "./sources/articles/ArticleItem/ArticleItem.template.html";
 }
-
-ArticleItemModel.prototype = Object.create(Model.prototype);
