@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>BOM - cookies and browser storage</title>
+    <script src="tema2.js"></script>
+  </head>
+  <body>
+    <h1>Cookies and Browser storage</h1>
+    <h2>Please select your language</h2>
+    <input type="radio" id="enLanguage" name="language" value="eng" checked />
+    <label for="enLanguage">English</label>
+    <br />
+    <input type="radio" id="roLanguage" name="language" value="ro" />
+    <label for="roLanguage">Romanian</label>
+    <br /><br />
+    <button onclick="checkRadioButtons()">Select language</button>
+    <br /><br />
+    <label for="userName">Please enter username</label>
+    <input type="text" id="userName" />
+    <button id="onSubmit" onclick="fillStorage()">Submit</button>
+  </body>
+</html>

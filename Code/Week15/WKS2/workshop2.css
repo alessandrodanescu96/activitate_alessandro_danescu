@@ -1,0 +1,147 @@
+.container div ul a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(75, 122, 192);
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+}
+.container div ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.container div ul li {
+  min-width: 20%;
+}
+.underNavTitle {
+  display: flex;
+  justify-content: space-around;
+}
+.underNavLeftSide {
+  display: flex;
+}
+.underNavLeftSide h1 {
+  border-right: 1px solid black;
+  padding: 10px;
+}
+.underNavLeftSide p {
+  align-self: center;
+  padding: 10px;
+}
+.techBanner {
+  height: 350px;
+  width: 70%;
+  background-image: url("Technology.jpeg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.floating-banner-paragraph {
+  font-size: small;
+  background-color: rgb(75, 122, 192);
+  color: white;
+  width: 30%;
+  padding: 5px;
+  margin: 10px;
+}
+.floating-banner-paragraph h2 {
+  border-bottom: 1px dashed white;
+  font-size: medium;
+  margin: 5px 5px 5px 5px;
+}
+.floating-banner-paragraph p {
+  padding: 5px;
+  height: 100px;
+}
+.tech-banner-title {
+  color: white;
+  background-color: rgb(75, 122, 192);
+  width: 30%;
+  align-self: flex-end;
+  margin-top: 10%;
+  margin-right: 3%;
+}
+.tech-banner-title h1 {
+  padding: 10px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2%;
+}
+.card-title {
+  margin: 10px;
+  padding: 5px;
+  border-bottom: 1px dashed black;
+}
+.card-body a {
+  text-decoration: none;
+  color: blue;
+}
+.card-img-top {
+  padding: 10px;
+}
+.link-ul {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+.link-ul ol {
+  align-self: flex-start;
+}
+.link-ul li {
+  list-style: none;
+  border-bottom: 1px solid gray;
+}
+.link-ul li a {
+  text-decoration: none;
+}
+.link-ul h3 {
+  margin: 10px;
+  color: gray;
+  border-bottom: 1px dashed gray;
+}
+.under-card-container {
+  padding: 15px;
+}
+.under-card-container img {
+  width: 250px;
+  height: 200px;
+}
+.under-cards-paragraph h3 {
+  padding: 5px;
+  border-bottom: 1px dashed lightgray;
+}
+.under-cards-paragraph {
+  border-bottom: 1px dashed gray;
+}
+.under-cards-paragraph a {
+  text-decoration: none;
+}
+.image-row-container {
+  margin: 20px;
+}
+.image-row-container img {
+  width: 200px;
+  height: 130px;
+  padding: 5px;
+  border: 1px solid black;
+}
+.footer {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(75, 122, 192);
+}
+.footer-text-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text-container p {
+  padding: 15px;
+  color: white;
+}

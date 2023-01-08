@@ -1,0 +1,54 @@
+.Navigation {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  margin: auto;
+}
+
+.Navigation a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 110%;
+  background-color: rgb(43, 98, 200);
+  padding: 2%;
+  width: 15%;
+}
+.Navigation a:hover {
+  transform: scale(1.1);
+}
+
+.Navigation a:visited {
+  color: white;
+}
+.UnderNav {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 1%;
+}
+.UnderNavTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 33%;
+}
+.UnderNavTitle h2 {
+  border-right: 2px solid black;
+  padding-right: 2%;
+}
+.UnderNavTitle p {
+  margin-left: 2%;
+}
+.ContactInfo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.ContactInfo p {
+  margin: 0%;
+}

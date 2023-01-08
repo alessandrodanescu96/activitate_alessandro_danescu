@@ -1,0 +1,81 @@
+.Banner {
+  background-image: url("technology.jpg");
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  position: relative;
+}
+.BannerParagraph {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 25%;
+  height: 45%;
+  overflow: auto;
+  font-size: 13px;
+  background-color: rgb(43, 98, 200);
+  color: white;
+}
+
+.BannerParagraph p {
+  margin: 3%;
+}
+
+.BannerParagraph p:first-child {
+  padding-bottom: 2%;
+  border-bottom: 2px dashed white;
+}
+
+.Title {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  background-color: rgb(43, 98, 200);
+  color: white;
+  width: 40%;
+  height: 20%;
+  text-align: center;
+}
+
+.FirstArticle {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+  padding-top: 50px;
+  border-bottom: 2px dashed black;
+}
+.FirstArticle img {
+  width: 240px;
+  height: 90px;
+  padding: 5px;
+  border: 1px solid blue;
+  align-self: center;
+}
+.FirstArtSections {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(234, 234, 234);
+}
+
+.FirstArtSections a {
+  text-decoration: none;
+  align-self: flex-end;
+  color: blue;
+  margin: 10px;
+}
+
+.FirstArtSections p {
+  margin: 20px;
+}
+
+.FirstArtSections p:first-child {
+  padding-bottom: 20px;
+  width: 90%;
+  border-bottom: 1px dashed black;
+  text-align: center;
+}
+
+.FirstArtSectionWrapper {
+  margin: 30px;
+}

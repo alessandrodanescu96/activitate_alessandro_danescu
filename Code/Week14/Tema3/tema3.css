@@ -1,0 +1,29 @@
+body {
+  background-image: url("raccoon-weather.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  color: rgb(72, 72, 87);
+  font-size: 80px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+button {
+  width: 300px;
+  height: 120px;
+  border-radius: 5%;
+  background-color: antiquewhite;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+button:hover {
+  transform: scale(1.1);
+}
+.button {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}

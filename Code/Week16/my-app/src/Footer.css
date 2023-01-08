@@ -1,0 +1,12 @@
+.Footer {
+  background-color: rgb(43, 98, 200);
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.Footer p {
+  margin: 15px;
+}

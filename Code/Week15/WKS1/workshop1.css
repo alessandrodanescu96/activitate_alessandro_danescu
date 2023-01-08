@@ -1,0 +1,23 @@
+.card-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cart-button {
+  border: 2px solid black;
+  font-family: fantasy;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 8px 25px 8px 25px;
+  margin: 0px 20px 0px 30px;
+}
+.view-button {
+  border: 3px solid black;
+  font-family: fantasy;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 8px 25px 8px 25px;
+}
