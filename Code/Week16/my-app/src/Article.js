@@ -1,7 +1,7 @@
 import React from "react";
 import "./Article.css";
 import MyImage from "./Bottompatterns.jpg";
-import MySecondImage from "./pattern2.png";
+import MySecondImage from "./pattern2.jpg";
 
 const Article = () => {
   return (

@@ -1,4 +1,4 @@
-.Footer {
+.footer {
   background-color: rgb(43, 98, 200);
   width: 90%;
   margin: auto;
@@ -7,6 +7,6 @@
   display: flex;
   justify-content: space-between;
 }
-.Footer p {
+.footer p {
   margin: 15px;
 }

@@ -1,7 +1,7 @@
 .container div ul a {
   text-decoration: none;
   color: white;
-  background-color: rgb(75, 122, 192);
+  background-color: rgb(74, 121, 190);
   font-size: 30px;
   margin: 10px;
   padding: 10px;
@@ -32,7 +32,7 @@
 .techBanner {
   height: 350px;
   width: 70%;
-  background-image: url("Technology.jpeg");
+  background-image: url("technology_1.webp");
   display: flex;
   flex-direction: column;
   justify-content: space-between;

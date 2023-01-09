@@ -1,11 +1,11 @@
-.Banner {
-  background-image: url("technology.jpg");
+.banner {
+  background-image: url("technology.webp");
   width: 90%;
   height: 500px;
   margin: auto;
   position: relative;
 }
-.BannerParagraph {
+.bannerParagraph {
   position: relative;
   top: 30px;
   left: 30px;
@@ -17,16 +17,16 @@
   color: white;
 }
 
-.BannerParagraph p {
+.bannerParagraph p {
   margin: 3%;
 }
 
-.BannerParagraph p:first-child {
+.bannerParagraph p:first-child {
   padding-bottom: 2%;
   border-bottom: 2px dashed white;
 }
 
-.Title {
+.title {
   position: absolute;
   top: 85%;
   left: 50%;
@@ -37,7 +37,7 @@
   text-align: center;
 }
 
-.FirstArticle {
+.firstArticle {
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -45,37 +45,37 @@
   padding-top: 50px;
   border-bottom: 2px dashed black;
 }
-.FirstArticle img {
+.firstArticle img {
   width: 240px;
   height: 90px;
   padding: 5px;
   border: 1px solid blue;
   align-self: center;
 }
-.FirstArtSections {
+.firstArtSections {
   display: flex;
   flex-direction: column;
   background-color: rgb(234, 234, 234);
 }
 
-.FirstArtSections a {
+.firstArtSections a {
   text-decoration: none;
   align-self: flex-end;
   color: blue;
   margin: 10px;
 }
 
-.FirstArtSections p {
+.firstArtSections p {
   margin: 20px;
 }
 
-.FirstArtSections p:first-child {
+.firstArtSections p:first-child {
   padding-bottom: 20px;
   width: 90%;
   border-bottom: 1px dashed black;
   text-align: center;
 }
 
-.FirstArtSectionWrapper {
+.firstArtSectionWrapper {
   margin: 30px;
 }

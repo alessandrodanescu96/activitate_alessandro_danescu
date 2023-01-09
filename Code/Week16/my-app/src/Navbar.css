@@ -1,4 +1,4 @@
-.Navigation {
+.navigation {
   color: white;
   display: flex;
   justify-content: space-between;
@@ -8,7 +8,7 @@
   margin: auto;
 }
 
-.Navigation a {
+.navigation a {
   text-align: center;
   text-decoration: none;
   font-size: 110%;
@@ -16,39 +16,39 @@
   padding: 2%;
   width: 15%;
 }
-.Navigation a:hover {
+.navigation a:hover {
   transform: scale(1.1);
 }
 
-.Navigation a:visited {
+.navigation a:visited {
   color: white;
 }
-.UnderNav {
+.underNav {
   margin: auto;
   display: flex;
   justify-content: space-between;
   width: 90%;
   margin-top: 1%;
 }
-.UnderNavTitle {
+.underNavTitle {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
   width: 33%;
 }
-.UnderNavTitle h2 {
+.underNavTitle h2 {
   border-right: 2px solid black;
   padding-right: 2%;
 }
-.UnderNavTitle p {
+.underNavTitle p {
   margin-left: 2%;
 }
-.ContactInfo {
+.contactInfo {
   display: flex;
   flex-direction: column;
   align-self: center;
 }
 
-.ContactInfo p {
+.contactInfo p {
   margin: 0%;
 }

@@ -5,8 +5,8 @@ import MyImage from "./pattern1.jpg";
 const Banner = () => {
   return (
     <div>
-      <div className="Banner">
-        <div className="BannerParagraph">
+      <div className="banner">
+        <div className="bannerPhotograph">
           <p>
             <b>Nemo enim ipsam voluptatem quia voluptas</b>
           </p>
@@ -20,13 +20,13 @@ const Banner = () => {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div className="Title">
+        <div className="title">
           <h1>Todays Technology </h1>
         </div>
       </div>
-      <article className="FirstArticle">
-        <div className="FirstArtSectionWrapper">
-          <div className="FirstArtSections">
+      <article className="firstArticle">
+        <div className="firstArtSectionWrapper">
+          <div className="firstArtSections">
             <p>
               <b>Finibus Bonorum et Malorum</b>
             </p>
@@ -41,8 +41,8 @@ const Banner = () => {
             <a href="">Read More </a>
           </div>
         </div>
-        <div className="FirstArtSectionWrapper">
-          <div className="FirstArtSections">
+        <div className="firstArtSectionWrapper">
+          <div className="firstArtSections">
             <p>
               <b>Accusantium doloremque laudantium</b>
             </p>
@@ -56,8 +56,8 @@ const Banner = () => {
             <a href="">Read More </a>
           </div>
         </div>
-        <div className="FirstArtSectionWrapper">
-          <div className="FirstArtSections">
+        <div className="firstArtSectionWrapper">
+          <div className="firstArtSections">
             <p>
               <b>Ut enim ad minima veniam</b>
             </p>
